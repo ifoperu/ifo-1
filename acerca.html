@@ -21,7 +21,15 @@
   </head>
 
   <body>
-    <div class="animsition">
+   <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8&appId=216225352080844";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
      
       <!-- Header -->
       <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
@@ -48,12 +56,10 @@
             <a class="mdl-navigation__link animsition-link" href="mapaovni.html">
             <i class="material-icons">home</i><span>Inicio</span></a>
             <a class="mdl-navigation__link animsition-link" href="acerca.html">
-            <i class="material-icons">person</i><span>Acerca</span></a>
-            <div class="mdl-collapse">
-                <a class="mdl-navigation__link mdl-collapse__button"><i class="material-icons">book</i>                  
-                    <span>Sugerencias</span>
-                </a>                
-            </div>
+            <i class="material-icons">person</i><span>Más Información</span></a>
+            <a class="mdl-navigation__link animsition-link" href="opiniones.html">
+            <i class="material-icons">book</i><span>Valoraciones y Opiniones</span></a>
+            <div class="fb-like" data-href="https://www.facebook.com/ifoperu/" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
            </nav>
         </div>
         
@@ -70,28 +76,18 @@
 
           <div class="page-header bg-white">
             <div class="breadcrumb">
-              <a href="index.html">Inicio</a><span>·</span>Acerca de la aplicación
+              <a href="index.html">Inicio</a><span>·</span>Valoraciones y Opiniones
             </div>
-            <h1 class="page-title">Acerca de la aplicación</h1>
+            <h1 class="page-title">Valoraciones y Opiniones</h1>
           </div>
 
           <div class="container padding-top-0 padding-bottom-32">
-            <p align="justify">Para los que miran al mundo diferente, que no se conforman de encontrar respuestas, esta solución permitirá abrir caminos a un evento que ocurre también en nuestro Perú, como es el caso de avistamientos de ovnis, encuentros cercanos, incidentes reales que pasan hasta agredir a personas y animales, abducciones de diferentes tipos, y mucho más, esta información te acercara al fenómeno ovni por su casuística en formato de Aplicación Móvil para q la lleves contigo en todo momento y consultar cuando quieras. Queremos recalcar que no seguimos a ni una secta, doctrina o movimiento religioso al fenómeno ovni, nos comprometemos unicamente de informar y/o descubrir algo que está oculto, siempre correcta y sin tabúes.
-			
-</p> 
-            <p> I.F.O. versión 1.0</p>
-
-            <div class="highlight">
-              <p>"Toda persona que tenga la capacidad de hacer una pregunta, tiene la capacidad de encontrar una respuesta"</p>
-              <!--<span class="little-text light-text">Mark Tobbers - <em>Fox Hunter</em></span>-->
-            </div>
-
-            
-     
+               
+               <div class="fb-comments" data-href="https://www.facebook.com/ifoperu/photos/a.294711244817553/295469954741682/?type=3&amp;theater" data-width="100%" data-numposts="10"></div>
 
           </div>
 
-          <footer class="mdl-mini-footer bg-light-blue">
+          <footer class="mdl-mini-footer bg-gris">
             <div class="mdl-mini-footer__left-section">
               <div class="mdl-logo">I.F.O. Investigación del Fenómeno Ovni</div>
               <!--<ul class="mdl-mini-footer__link-list white">
